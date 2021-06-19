@@ -1,0 +1,198 @@
+{
+	"id": "245405c0-f749-0c74-850a-46b67130e767",
+	"name": "blogpessoal",
+	"description": "",
+	"order": [
+		"95fb6f08-053e-e0f2-74a5-3bdee91b811b",
+		"1d95c07a-b5e3-0db9-63c0-1373c905b241",
+		"0fbe46e0-8544-bfe2-e4f6-6041801a7184",
+		"fe15b899-62a3-96d6-f6d1-6a32320ea94b",
+		"0cf68cdf-21a1-0112-498a-a13aecdc4835",
+		"d4509c97-6877-e982-60aa-935bd03d0c4a"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1624119431573,
+	"owner": "15804271",
+	"public": false,
+	"requests": [
+		{
+			"id": "0cf68cdf-21a1-0112-498a-a13aecdc4835",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/posts/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "245405c0-f749-0c74-850a-46b67130e767",
+			"data": [],
+			"dataMode": "raw",
+			"name": "PUT - updating John",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1624120515205,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n    \"id\": 2,\n    \"name\": \"John\",\n    \"message\": \"Prima!\"\n\t\n}"
+		},
+		{
+			"id": "0fbe46e0-8544-bfe2-e4f6-6041801a7184",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/posts",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "245405c0-f749-0c74-850a-46b67130e767",
+			"data": [],
+			"dataMode": "raw",
+			"name": "GET - get post posting id4",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1624119659225,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\n\t\"userName\":\"admin\",\n\t\"password\":\"nimdaX\"\n\t\n}"
+		},
+		{
+			"id": "1d95c07a-b5e3-0db9-63c0-1373c905b241",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/posts",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "245405c0-f749-0c74-850a-46b67130e767",
+			"data": [],
+			"dataMode": "raw",
+			"name": "POST - personalblog",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1624119604678,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"id\": 4,\n\t\"name\": \"Young\",\n\t\"message\": \"This is a new post, isn't it?\"\n}"
+		},
+		{
+			"id": "95fb6f08-053e-e0f2-74a5-3bdee91b811b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/posts",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "245405c0-f749-0c74-850a-46b67130e767",
+			"data": [],
+			"dataMode": "raw",
+			"name": "GET - personalblog",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1624119435156,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\n\t\"userName\":\"admin\",\n\t\"password\":\"nimdaX\"\n\t\n}"
+		},
+		{
+			"id": "d4509c97-6877-e982-60aa-935bd03d0c4a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/posts",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "245405c0-f749-0c74-850a-46b67130e767",
+			"data": null,
+			"dataMode": "params",
+			"name": "GET - after updating John",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1624120566063,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fe15b899-62a3-96d6-f6d1-6a32320ea94b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/posts",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "245405c0-f749-0c74-850a-46b67130e767",
+			"data": [],
+			"dataMode": "raw",
+			"name": "GET - after delete id 3",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1624120116525,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\n\t\"userName\":\"admin\",\n\t\"password\":\"nimdaX\"\n\t\n}"
+		}
+	]
+}
