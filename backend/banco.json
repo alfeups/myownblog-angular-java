@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "name": "Alfeu",
+      "message": "Welcome to my personal blog."
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "message": "Prima!"
+    },
+    {
+      "id": 4,
+      "name": "Young",
+      "message": "This is a new post, isn't it?"
+    }
+  ]
+}
