@@ -41,3 +41,10 @@
 ```npm i popper.js``` -> Used on angular
 
 ```ng add @fortawesome/angular-fontawesome``` -> Angular's package
+
+## Project's images:
+
+<img src="img/b1.png" height="600px" width="1000">
+<img src="img/b2.png" height="600px" width="1000">
+<img src="img/b3.png" height="600px" width="1000">
+<img src="img/b4.png" height="600px" width="1000">
