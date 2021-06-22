@@ -14,6 +14,16 @@
       "id": 4,
       "name": "Young",
       "message": "This is a new post, isn't it?"
+    },
+    {
+      "name": "Ronaldo Nazário",
+      "message": "Lenda viva.Testing post.",
+      "id": 6
+    },
+    {
+      "name": "Romario",
+      "message": "Fala, peixe. Testing refreshing.",
+      "id": 7
     }
   ]
 }
